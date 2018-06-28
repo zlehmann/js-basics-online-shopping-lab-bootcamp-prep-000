@@ -10,9 +10,9 @@ function setCart(c) {
 }
 
 function addToCart(item) {
- obj = {
-   'itemName'
- }
+ var obj = new Object()
+ obj.itemName = item
+ obj.itemPrice = 
 }
 
 function viewCart() {
