@@ -13,10 +13,11 @@ function addToCart(item) {
  obj = {}
  obj.itemName = item
  obj.itemPrice = Math.random()*100
+ return `${obj.itemName} has been added to your cart.`
 }
 
 function viewCart() {
-  // write your code here
+  
 }
 
 function total() {
